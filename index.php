@@ -819,9 +819,9 @@
                     <div class="col-lg-3">
                         <div class="about footer-item">
                             <div class="logo">
-                                <a href="#"><img src="assets/images/logo.png" alt="Onix Digital TemplateMo"></a>
+                                <a href="#"><img src="assets/images/arjungtech-logo-removebg-preview.png" alt="Arjun G-Tech"></a>
                             </div>
-                            <a href="#">info@company.com</a>
+                            <a href="index.php">Arjun G-tech</a>
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -864,14 +864,13 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="copyright">
-                            <p>Copyright © 2021 Onix Digital Co., Ltd. All Rights Reserved.
-                                <br> Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">TemplateMo</a></p>
+                            <p>© 2024 Arjun G-tech. All Rights Reserved.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-
         <!-- Scripts -->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -879,7 +878,6 @@
         <script src="assets/js/animation.js"></script>
         <script src="assets/js/imagesloaded.js"></script>
         <script src="assets/js/custom.js"></script>
-
         <script>
             // Acc
             $(document).on("click", ".naccs .menu div", function() {
