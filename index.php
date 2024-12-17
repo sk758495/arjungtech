@@ -108,7 +108,7 @@
                             <li class="scroll-to-section"><a href="#services">Services</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
                             <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
-                            <li class="scroll-to-section"><a href="#video">Videos</a></li>
+                            <!-- <li class="scroll-to-section"><a href="#video">Videos</a></li> -->
                             <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
                             <li class="scroll-to-section">
                                 <div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div>
@@ -622,9 +622,9 @@
                     <div class="inner-content">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
-                                <h2>Know Your Website SEO Score by Email</h2>
+                                <h2>Know Your Website SEO quotation</h2>
                                 <form id="subscribe" action="" method="get">
-                                    <input type="text" name="website" id="website" placeholder="Your Website URL" required="">
+                                    <input style="border-top-left-radius: 50px; border-bottom-left-radius: 50px;" type="text" name="website" id="website" placeholder="Company Name" required="">
                                     <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
                                     <button type="submit" id="form-submit" class="main-button ">Subscribe</button>
                                 </form>
@@ -798,7 +798,6 @@
                             </div>
                         </div>
                     </form>
-
                 </div>
             </div>
             <div class="contact-dec">
