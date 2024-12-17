@@ -64,6 +64,15 @@
                 /* Adjust for very large screens */
             }
         }
+        /* Custom Toastr success message background */
+    .toast-success {
+        background-color: #007bff !important; /* Blue background */
+    }
+
+    /* Custom Toastr error message background */
+    .toast-error {
+        background-color: #dc3545 !important; /* Red background */
+    }
     </style>
 </head>
 
@@ -760,16 +769,6 @@
                     </div>
                 </div>
                 <div class="col-lg-5 align-self-center">
-                <?php
-                    // Include Flasher and display the toastr messages
-                    if (isset($_GET['status'])) {
-                        if ($_GET['status'] === 'success') {
-                            echo '<script>toastr.success("Your request has been submitted successfully!");</script>';
-                        } elseif ($_GET['status'] === 'error') {
-                            echo '<script>toastr.error("Failed to send your request. Please try again later.");</script>';
-                        }
-                    }
-                    ?>
                     <form id="contact" action="process_form.php" method="post">
                         <div class="row">
                             <div class="col-lg-12">
@@ -873,7 +872,6 @@
             </div>
         </footer>
 
-
         <!-- Scripts -->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -904,6 +902,37 @@
          <!-- Flasher Toastr JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
+    <script>
+        toastr.options = {
+    "closeButton": true,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": true,
+    "positionClass": "toast-top-right",
+    "preventDuplicates": true,
+    "onclick": null,
+    "showDuration": "300",
+    "hideDuration": "1000",
+    "timeOut": "5000",
+    "extendedTimeOut": "1000",
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+};
+
+// Debugging the status
+<?php
+    if (isset($_GET['status'])) {
+        if ($_GET['status'] === 'success') {
+            echo 'toastr.success("Your request has been submitted successfully!");';
+        } elseif ($_GET['status'] === 'error') {
+            echo 'toastr.error("Failed to send your request. Please try again later.");';
+        }
+    }
+    ?>
+
+    </script>
 </body>
 
 </html>

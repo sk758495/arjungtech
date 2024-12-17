@@ -50,16 +50,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          $mail->send();
 
          // Redirect after success
-        // Redirect with success status
-        header("Location: index.php?status=success");
-        exit();
-    } catch (Exception $e) {
-        // Redirect with error status
-        header("Location: index.php?status=error");
-        exit();
-    }
+     // Redirect with success status
+     header("Location: index.php?status=success");
+     exit();
+ } catch (Exception $e) {
+     // Redirect with error status
+     header("Location: index.php?status=error");
+     exit();
+ }
 } else {
-    header("Location: index.php");
-    exit();
+ header("Location: index.php");
+ exit();
 }
 ?>
