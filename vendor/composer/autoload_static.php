@@ -6,10 +6,22 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit2185d2f99bcd56787481d9357a5972d3
 {
+    public static $files = array (
+        '1c9051359cc4715f5f9b335dba6482da' => __DIR__ . '/..' . '/php-flasher/flasher/functions.php',
+        'da91a01b5badbe5394c83814ef5982ea' => __DIR__ . '/..' . '/php-flasher/flasher/helpers.php',
+        'ea5fe30a29a003841e935d35db82069e' => __DIR__ . '/..' . '/php-flasher/flasher-toastr/functions.php',
+        '8c15924acd8bcdca7d143b74c5c435ae' => __DIR__ . '/..' . '/php-flasher/flasher-toastr/helpers.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
             'PHPMailer\\PHPMailer\\' => 20,
+        ),
+        'F' => 
+        array (
+            'Flasher\\Toastr\\Prime\\' => 21,
+            'Flasher\\Prime\\' => 14,
         ),
     );
 
@@ -17,6 +29,14 @@ class ComposerStaticInit2185d2f99bcd56787481d9357a5972d3
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Flasher\\Toastr\\Prime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-flasher/flasher-toastr',
+        ),
+        'Flasher\\Prime\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-flasher/flasher',
         ),
     );
 

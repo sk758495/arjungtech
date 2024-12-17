@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="icon" href="" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Flasher Toastr Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
     <title>Arjun G-Tech</title>
 
@@ -758,6 +760,16 @@
                     </div>
                 </div>
                 <div class="col-lg-5 align-self-center">
+                <?php
+                    // Include Flasher and display the toastr messages
+                    if (isset($_GET['status'])) {
+                        if ($_GET['status'] === 'success') {
+                            echo '<script>toastr.success("Your request has been submitted successfully!");</script>';
+                        } elseif ($_GET['status'] === 'error') {
+                            echo '<script>toastr.error("Failed to send your request. Please try again later.");</script>';
+                        }
+                    }
+                    ?>
                     <form id="contact" action="process_form.php" method="post">
                         <div class="row">
                             <div class="col-lg-12">
@@ -889,6 +901,9 @@
                 }
             });
         </script>
+         <!-- Flasher Toastr JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
 </body>
 
 </html>
