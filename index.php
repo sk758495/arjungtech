@@ -760,11 +760,11 @@
                     <div class="section-heading">
                         <h2>Feel free to <em>Contact</em> us via the <span>Email</span></h2>
                         <div id="map">
-                            <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.4005529683163!2d73.2356093751663!3d22.300686179686256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc558bbce8c83%3A0x5792fc8422126c0b!2sGUJJUEMARKET!5e0!3m2!1sen!2sin!4v1734420575288!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="info">
-                            <span><i class="fa fa-phone"></i> <a href="#">010-020-0340<br>090-080-0760</a></span>
-                            <span><i class="fa fa-envelope"></i> <a href="#">info@company.com<br>mail@company.com</a></span>
+                            <span><i class="fa fa-phone"></i> <a href="tel:9624402490">9624402490<br>9624402490</a></span>
+                            <span><i class="fa fa-envelope"></i> <a href="mailto:arjuncableconverters@gmail.com">arjuncableconverters@gmail.com<br>arjuncableconverters@gmail.com</a></span>
                         </div>
                     </div>
                 </div>
