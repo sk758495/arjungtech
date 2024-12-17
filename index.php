@@ -758,45 +758,36 @@
                     </div>
                 </div>
                 <div class="col-lg-5 align-self-center">
-                    <div class="col-lg-5 align-self-center">
-                        <?php
-                            if (isset($_GET['status']) && $_GET['status'] === 'success') {
-                                echo '<div class="success-message">Your request has been submitted successfully!</div>';
-                            } elseif (isset($_GET['status']) && $_GET['status'] === 'error') {
-                                echo '<div class="error-message">Failed to send your request. Please try again later.</div>';
-                            }
-                        ?>
-                            <form id="contact" action="process_form.php" method="post">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <input type="text" name="name" id="name" placeholder="Name" autocomplete="on" required>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <input type="text" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <input type="email" name="email" id="email" placeholder="Your Email" required>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea name="details" id="details" placeholder="Describe your requirement" required></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="main-button">Submit Request</button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
+                    <form id="contact" action="process_form.php" method="post">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input type="text" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input type="text" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <textarea name="details" id="details" placeholder="Describe your requirement" required></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
 
-                    </div>
                 </div>
             </div>
             <div class="contact-dec">
