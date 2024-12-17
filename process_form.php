@@ -46,13 +46,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><strong>Details:</strong> {$details}</p>
         ";
 
-        // Send email
-        $mail->send();
-        echo "Your request has been submitted successfully!";
+         // Send email
+         $mail->send();
+
+         // Redirect after success
+        // Redirect with success status
+        header("Location: index.php?status=success");
+        exit();
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        // Redirect with error status
+        header("Location: index.php?status=error");
+        exit();
     }
 } else {
-    echo "Invalid request method.";
+    header("Location: index.php");
+    exit();
 }
 ?>
