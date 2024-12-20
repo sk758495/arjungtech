@@ -818,14 +818,14 @@
                     <div class="col-lg-3">
                         <div class="about footer-item">
                             <div class="logo">
-                                <a href="#"><img src="assets/images/arjungtech-logo-removebg-preview.png" style="width: 350px; justify-content: start; margin-left: -50px; margin-bottom: 0px;" class="img-fluid" alt="Arjun G-Tech"></a>
+                                <a href="index.php"><img src="assets/images/arjungtech-logo-removebg-preview.png" style="width: 350px; justify-content: start; margin-left: -50px; margin-bottom: 0px;" class="img-fluid" alt="Arjun G-Tech"></a>
                             </div>
                             <a href="index.php">Arjun G-tech</a>
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/dhanji.bharwad.3/"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/seller_sathi_vadodara"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
