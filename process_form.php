@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Sender and recipient settings
         $mail->setFrom($email, "$name $surname");
-        $mail->addAddress('sk758495@gmail.com', 'Dhanji Bharwad'); // Your email address
+        $mail->addAddress('arjuncableconverters@gmail.com', 'Dhanji Bharwad'); // Your email address
 
         // Email content
         $mail->isHTML(true);
