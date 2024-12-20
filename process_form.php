@@ -26,14 +26,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'sk758495@gmail.com'; // Your SMTP username
-        $mail->Password = 'xqikzqodohxrldkr'; // Use your App Password here
+        $mail->Username = 'arjuncableconverters@gmail.com'; // Your SMTP username
+        $mail->Password = 'mtrlfujdiyxxryjz'; // Use your App Password here
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587; // Use 587 for TLS
 
         // Sender and recipient settings
         $mail->setFrom($email, "$name $surname");
-        $mail->addAddress('sk758495@gmail.com', 'Dhanji Bharwad'); // Your email address
+        $mail->addAddress('arjuncableconverters@gmail.com', 'Dhanji Bharwad'); // Your email address
 
         // Email content
         $mail->isHTML(true);
