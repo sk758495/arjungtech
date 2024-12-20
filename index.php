@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link rel="icon" href="" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Flasher Toastr Stylesheet -->
@@ -139,7 +139,7 @@
                                         traffic and deliver results.</p>
                                     <div class="down-buttons">
                                         <div class="main-blue-button-hover">
-                                            <a href="#contact">Message Us Now</a>
+                                            <a href="https://wa.me/9624402490">Message Us Now</a>
                                         </div>
                                         <div class="call-button">
                                             <a href="tel:9624402490"><i class="fa fa-phone"></i> 9624402490</a>
