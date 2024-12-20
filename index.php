@@ -123,7 +123,7 @@
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
+    <!-- **** Header Area End **** -->
 
     <div class="main-banner" id="top">
         <div class="container">
