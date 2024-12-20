@@ -1883,10 +1883,11 @@ footer .footer-item h4 {
     margin-bottom: 30px;
 }
 
-footer .about .logo img {
+
+/* footer .about .logo img {
     width: 89px;
     margin-bottom: 30px;
-}
+} */
 
 footer .about a {
     color: #afafaf;

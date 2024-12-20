@@ -818,7 +818,7 @@
                     <div class="col-lg-3">
                         <div class="about footer-item">
                             <div class="logo">
-                                <a href="#"><img src="assets/images/arjungtech-logo-removebg-preview.png" alt="Arjun G-Tech"></a>
+                                <a href="#"><img src="assets/images/arjungtech-logo-removebg-preview.png" style="width: 350px; justify-content: start; margin-left: -50px; margin-bottom: 0px;" class="img-fluid" alt="Arjun G-Tech"></a>
                             </div>
                             <a href="index.php">Arjun G-tech</a>
                             <ul>
